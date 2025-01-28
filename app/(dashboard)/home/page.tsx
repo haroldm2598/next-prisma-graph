@@ -1,11 +1,10 @@
 import React from 'react';
-import PostList from './_component/PostList';
+import Novels from './_component/Novels';
 
 export default function page() {
 	return (
 		<div>
-			<h1>Home Apoloo</h1>
-			<PostList />
+			<Novels />
 		</div>
 	);
 }
