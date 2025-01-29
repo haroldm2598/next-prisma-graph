@@ -13,7 +13,7 @@ interface ProviderProps {
 
 export default function Providers({ children }: ProviderProps) {
 	const client = new ApolloClient({
-		uri: 'https://flyby-router-demo.herokuapp.com/',
+		uri: 'http://localhost:3000/api/graphql',
 		cache: new InMemoryCache()
 	});
 
